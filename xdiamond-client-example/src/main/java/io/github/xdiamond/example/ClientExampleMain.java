@@ -7,7 +7,7 @@ public class ClientExampleMain {
     // 这些变量可以通过命令行或者在tomcat的setenv.sh文件里传递进来，这里简单起见，直接设置到system properties里
     // 参考spring-context-clientexample.xml 里的${}表达式配置
     if (System.getProperty("xdiamond.server.host") == null) {
-      System.setProperty("xdiamond.server.host", "localhost");
+      System.setProperty("xdiamond.server.host", "datafarm-hadoop-dev-04");
     }
     if (System.getProperty("xdiamond.server.port") == null) {
       System.setProperty("xdiamond.server.port", "5678");
